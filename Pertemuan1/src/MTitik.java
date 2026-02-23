@@ -1,6 +1,8 @@
 /**
  * Nama File : MTitik.java
  * Deskripsi : Main class untuk menguji class Titik
+ * Pembuat   : Elang Fadila Ahmad
+ * Tanggal   : 19 Februari 2026
  */
 public class MTitik {
     public static void main(String[] args) {
