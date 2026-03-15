@@ -4,6 +4,7 @@
  * Pembuat   : Elang Fadila Ahmad
  * Tanggal   : 2 Maret 2026
  */
+
 public class MMahasiswa {
     public static void main(String[] args) {
         MataKuliah PBO = new MataKuliah("PBO", "Pemrograman Berorientasi Onjek", 3);
