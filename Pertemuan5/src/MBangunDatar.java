@@ -9,7 +9,7 @@ public class MBangunDatar{
     public static void main (String[] args){
         Persegi Persegi1 = new Persegi(4, "biru", "hitam");
         Persegi Persegi2 = new Persegi(4, "merah", "putih");
-        Lingkaran Lingkaran1 = new Lingkaran(14, "pink", "hitam");
+        Lingkaran Lingkaran1 = new Lingkaran(14, "ungu", "hitam");
         Lingkaran Lingkaran2 = new Lingkaran(21, "kuning", "hijau");
 
         System.out.println("PERSEGI1");
