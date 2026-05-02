@@ -54,5 +54,13 @@ public class MSeminar {
         M3.tampilDataMahasiswa();
         M4.tampilDataMahasiswa();
         M5.tampilDataMahasiswa();
+
+        // CARA KERJA POLIMORFISME
+        /* 
+        Polimorfisme memungkinkan satu nama method atau variabel berperilaku berbeda tergantung konteksnya. Misalnya, method getNomor()
+        yang sama bisa mengembalikan NIP untuk Dosen dan NIM untuk Mahasiswa — tanpa perlu tahu dari awal objek mana yang sedang diproses.
+        Hal ini membuat kode lebih fleksibel dan tidak perlu ditulis ulang untuk setiap jenis objek yang berbeda. Intinya, polimorfisme
+        membantu kita menulis kode yang lebih umum tapi tetap bisa berperilaku spesifik sesuai kebutuhan.
+        */
     }
 }
