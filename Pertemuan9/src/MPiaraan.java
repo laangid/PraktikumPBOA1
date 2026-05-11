@@ -62,5 +62,16 @@ public class MPiaraan {
         // bobotKucing
         double totalBobot = klinik.bobotKucing();
         System.out.println("\nTotal bobot kucing: " + totalBobot);
+
+        // Renungan
+        // Koleksi adalah cara menyimpan banyak data sejenis dalam satu struktur yang terorganisir, sehingga data bisa diakses dan dikelola dengan mudah tanpa perlu
+        // membuat banyak variabel terpisah. Misal saya punya 50 teman, tanpa koleksi, saya harus membuat 50 variabel String (teman1, teman2, teman3, dll).
+        // Ini sangat tidak praktis dan membuat kode sulit dibaca. Koleksi memecahkan masalah ini dengan menyediakan satu tempat terpusat untuk menyimpan semua
+        // data sekaligus. Hal ini membuat saya bisa menambah, menghapus, mencari, atau mengubah elemen dengan operasi yang sederhana dan konsisten.
+
+        // Dalam praktikum ini, saya mempelajari dua jenis koleksi dengan perilaku berbeda. List (Soal 1 - Teman) adalah koleksi yang fleksibel. Saya bisa menambah,
+        // menghapus, atau mengubah elemen di posisi mana saja tanpa batasan urutan. List cocok untuk kasus seperti daftar teman, di mana urutan tidak penting. 
+        // Sementara itu, Queue (Soal 2 - Piaraan) menerapkan prinsip FIFO, di mana hanya bisa menambah dari belakang dan mengambil dari depan. Queue cocok untuk
+        // antrian. Contohnya di klinik hewan. Hewan yang datang duluan harus dirawat duluan. Ini memastikan sistem adil dan teratur.
     }
 }
